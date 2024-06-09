@@ -1,10 +1,13 @@
+pub mod states;
+pub use states::*;
+
 pub mod errors;
 pub mod instructions;
-pub mod states;
+
 
 pub use errors::ErrorCodes;
 pub use instructions::*;
-pub use states::*;
+
 
 declare_id!("<PLACE YOUR ADDRESS HERE>");
 
